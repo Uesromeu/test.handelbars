@@ -1,0 +1,112 @@
+/*Geral*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 0;
+}
+ .nav-bar{
+    margin-top: 20px;
+ 
+ }
+ .list-style{
+
+    padding: 0 25px;
+   
+ }
+.list-style li{
+   display: inline-block;
+   list-style: none;
+   padding:5px 10px;
+
+   
+}
+.list-style li a{
+    color:black;
+    text-decoration: none;
+    cursor:pointer;
+
+
+}
+
+.list-style li a:hover{
+    text-decoration: underline;
+}
+#list-bar{
+    text-align: right;
+}
+#body{
+    text-align: center;
+  
+}
+.google_logo{
+    padding-top: 7%;
+    margin-bottom: 25px;
+}
+.buscar-container{
+    width: 43vw;
+    height: 50px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-buscar{
+    height: 48px;
+    width: 100%;
+    border-radius: 24px;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 0px 50px;
+    border:1px solid #dfdfdf;
+    box-shadow:0px 0px 5px #ddd;
+}
+#lupa,#teclado, #microfone{
+    position:absolute;
+    top:15px;
+    font-size:18px;
+
+}
+
+#lupa{
+    right: 95%;
+}
+#teclado{
+    right: 40px;
+}
+#microfone{
+    right: 15px;
+}
+
+.buscar-container-2{
+    margin-top:30px;
+}
+
+.buscar-container-2 input{
+    padding: 10px 15px;
+    border:none;
+    color:rgb(123, 124, 123);
+    cursor:pointer;
+}
+
+.buscar-container-2 input:hover{
+    border:1px solid rgb(190, 190, 190);
+    color:rgb(68, 68, 68);
+}
+
+footer  {
+    position:absolute;
+    display: block;
+    background-color: #ddd;
+    box-sizing: border-box;
+     width: 100%;
+    height: 40px;
+    bottom: 0;
+}
+#left-bar,#rigth-bar{
+    display: inline-block;
+    margin-top: 8px;
+}
+#rigth-bar{
+    position: absolute;
+    right: 0;
+}
